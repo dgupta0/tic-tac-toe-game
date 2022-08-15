@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto:wght@500&family=Spinnaker&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="heading">Tic-Tac-Toe Game</h1>
+    <div id="options">
+        <div id="p1-options">
+            <label for="p1-val">Player One Options:</label>
+            <select name="p1-val" id="p1-val">
+                <option value="empty"></option>
+                <option value="X">X</option>
+                <option value="O"> O</option>
+            </select>
+        </div>
+        <div id="p2-options">
+            <label for="p2-val">Player Two Options:</label>
+            <select name="p2-val" id="p2-val">
+                <option value="empty"></option>
+                <option value="O">O</option>
+                <option value="X">X</option>
+            </select>
+        </div>
+    </div>
+    <h2 id="announce"></h2>
+    <div id="main-box">
+        <div id="r1">
+            <button id="b1" class="btn"></button>
+            <button id="b2" class="btn"></button>
+            <button id="b3" class="btn"></button>
+        </div>
+        <div id="r2">
+            <button id="b4" class="btn"></button>
+            <button id="b5" class="btn"></button>
+            <button id="b6" class="btn"></button>
+        </div>
+        <div id="r3">
+            <button id="b7" class="btn"></button>
+            <button id="b8" class="btn"></button>
+            <button id="b9" class="btn"></button>
+        </div>
+    </div>
+    <button id=reset>Reset</button>
+    <script src="app.js"></script>
+</body>
+
+</html>
